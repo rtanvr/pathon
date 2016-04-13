@@ -3,12 +3,14 @@
 class StringMan():
 	def reverse(self, string):
 
-		tempword = ""
+		#tempword = ""
 
-		for x in range(len(string)):
-			tempword += string[len(string) - x - 1]
+		#for x in range(len(string)):
+		#	tempword += string[len(string) - x - 1]
 
-		return (tempword)
+		#return (tempword)
+
+		return string[::-1]
 
 if __name__ == '__main__':
 	x = StringMan()

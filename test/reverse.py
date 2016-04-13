@@ -1,10 +1,17 @@
 # enter a string and the program will reverse the order and print it out
 
-word = input("Enter a word: ")
+class StringMan():
+	def reverse(self, string):
 
-tempword = ""
+		tempword = ""
 
-for x in range(len(word)):
-	tempword += word[len(word) - x - 1]
+		for x in range(len(string)):
+			tempword += string[len(string) - x - 1]
 
-print (tempword)
+		return (tempword)
+
+if __name__ == '__main__':
+	x = StringMan()
+	string = input("Enter a word: ")
+	string = x.reverse(string)
+	print (string)

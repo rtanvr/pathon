@@ -15,5 +15,4 @@ class StringMan():
 if __name__ == '__main__':
 	x = StringMan()
 	string = input("Enter a word: ")
-	string = x.reverse(string)
-	print (string)
+	print (x.reverse(string))

@@ -13,6 +13,6 @@ class StringMan():
 		return string[::-1]
 
 if __name__ == '__main__':
-	x = StringMan()
+	#x = StringMan()
 	string = input("Enter a word: ")
-	print (x.reverse(string))
+	print (StringMan().reverse(string))

@@ -20,6 +20,6 @@ if __name__ == '__main__':
 	count = x.CountVowels(string)
 	print (', '.join(vowels))
 	##print (', '.join(count))
-	print(*count, sep=',  ')
+	print(*count, sep=', ')
 	totalcount = sum(count)
 	print('Total Vowel Count:', totalcount)

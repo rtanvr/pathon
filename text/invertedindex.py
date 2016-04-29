@@ -1,4 +1,5 @@
-from collections import namedtuple
+#Inverted index, indexes line and word number of words in a document 
+
 import os.path
 
 #Search the doc dictionary for string
